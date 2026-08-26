@@ -1,0 +1,4 @@
+version: 1
+
+# 从“学号、姓名、github账号名”三列 Excel 导入。
+students: {}
