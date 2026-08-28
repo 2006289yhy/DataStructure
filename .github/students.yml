@@ -31,6 +31,10 @@ students:
     name: 陈万
     github: Tarilblazer
     active: true
+  "2025010008":
+    name: 和明军
+    github: yxnuhmj-2026
+    active: true
   "2025010009":
     name: 吴孟讯
     github: lucky1-ops
@@ -63,6 +67,10 @@ students:
     name: 刘胜
     github: The-foolishperson
     active: true
+  "2025010017":
+    name: 刘成林
+    github: lululu899
+    active: true
   "2025010018":
     name: 任浩
     github: RH12i
@@ -71,6 +79,10 @@ students:
     name: 张天源
     github: StellaZhangoo
     active: true
+  "2025010020":
+    name: 李宇轩
+    github: GEMLYX
+    active: true
   "2025010021":
     name: 和舒艳
     github: Nelenxxx
@@ -78,6 +90,10 @@ students:
   "2025010022":
     name: 施睿
     github: User-498
+    active: true
+  "2025010023":
+    name: 罗皖月
+    github: Rrdi6
     active: true
   "2025010025":
     name: 徐敦昊
@@ -123,9 +139,17 @@ students:
     name: 张起鸣
     github: yanyu-droid
     active: true
+  "2025010036":
+    name: 李洋
+    github: li-yang-andy
+    active: true
   "2025010037":
     name: 赵一锦
     github: wcbwp
+    active: true
+  "2025010038":
+    name: 卯光浩
+    github: 08mgh
     active: true
   "2025010039":
     name: 徐晟杰
