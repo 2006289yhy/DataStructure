@@ -69,6 +69,7 @@ assignments:
     review_points:
       - helloworld.c 必须是能够独立编译的 C 程序，使用 stdio.h、int main(void) 和 printf，只输出一行 Hello, World!，输出末尾包含换行符，并正常返回 0。
       - helloworld.c 不得使用 C++ 的 iostream、cout 或其他与 C 源文件类型不符的内容，也不得保留无关示例代码。
+    vision_review_points:
       - clion-toolchain.png 必须清晰显示 CLion 的 Toolchains 设置页面、当前工具链名称，以及已被正确识别且没有红色错误提示的 CMake、Build Tool、C Compiler 和 Debugger。
       - 截图必须能清晰确认 CLion 窗口、项目树中的 helloworld.c、编辑器中的完整 C 源代码、Run 窗口输出 Hello, World!，以及程序以退出码 0 正常结束。
       - 截图必须来自学生本人的电脑环境并使用电脑截图功能；出现手机拍摄造成的反光、摩尔纹、明显倾斜或文字无法辨认时判为不合格。
