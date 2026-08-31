@@ -72,5 +72,5 @@ assignments:
     vision_review_points:
       - 忽略截图中的一切警告、提示、弃用说明和黄色感叹号图标，它们不构成不合格；只有红色错误提示才算问题。
       - clion-toolchain.png 必须清晰显示 CLion 的 Toolchains 设置页面、当前工具链名称，以及 CMake、Build Tool、C Compiler 和 Debugger 均已填入具体路径或版本而非留空。
-      - 截图必须能清晰确认 CLion 窗口、项目树中的 helloworld.c、编辑器中的完整 C 源代码、Run 窗口输出 Hello, World!，以及程序以退出码 0 正常结束。
+      - 截图必须能清晰确认 CLion 窗口、项目树中的 C 源文件（文件名为 helloworld.c 或 main.c 均可）、编辑器中的完整 C 源代码、Run 窗口输出 Hello, World!，以及程序以退出码 0 正常结束。
       - 截图必须来自学生本人的电脑环境并使用电脑截图功能；出现手机拍摄造成的反光、摩尔纹、明显倾斜或文字无法辨认时判为不合格。
