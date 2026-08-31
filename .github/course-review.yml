@@ -12,7 +12,7 @@ features:
   comment_review: true
   close_late_pr: true
   ai_review: true
-  ocr_review: true
+  ocr_review: false
   vision_review: true
   metrics: true
 
