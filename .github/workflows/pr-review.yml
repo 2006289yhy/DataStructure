@@ -43,7 +43,7 @@ jobs:
           run-id: ${{ github.event.workflow_run.id }}
 
       - name: 使用共享审核器审核并处理 PR
-        uses: LiuXiYing/course-pr-reviewer@b600540d8504c136973810b14b52646f9b26f87f
+        uses: LiuXiYing/course-pr-reviewer@05bd07495d06eeb70b81a97a6ed4a60a743aed4d
         with:
           config-path: .github/course-review.yml
           students-path: .github/students.yml
