@@ -57,7 +57,7 @@ vision:
   max_total_bytes: 12000000
   max_pixels: 25000000
   max_side: 4096
-  max_output_tokens: 1000
+  max_output_tokens: 4096
 
 # 发布作业时在这里追加 Lab1、Lab2 等配置。
 # required_files 为相对学生作业目录的精确文件名；vision_files 支持 fnmatch 通配符。
