@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <windows.h>
 
 long long algorithm1(int n) {
     long long count = 0;
@@ -37,19 +36,21 @@ long long algorithm4(int n) {
     return count;
 }
 
-int main(void)
-{
-    SetConsoleOutputCP(65001); // Windows解决中文乱码
+int main(void) {
+    int arr[] = {2048, 4096, 8192, 16384};
+    int len = sizeof(arr)/sizeof(arr[0]);
 
-    int n;
-    printf("请输入n的值：");
-    scanf("%d", &n);
+    printf("%-6s %12s %12s %12s %12s\n",
+           "n", "algorithm1", "algorithm2", "algorithm3", "algorithm4");
 
-    printf("algorithm1 执行次数：%lld\n", algorithm1(n));
-    printf("algorithm2 执行次数：%lld\n", algorithm2(n));
-    printf("algorithm3 执行次数：%lld\n", algorithm3(n));
-    printf("algorithm4 执行次数：%lld\n", algorithm4(n));
-
+    for(int k = 0; k < len; k++){
+        int n = arr[k];
+        long long a1 = algorithm1(n);
+        long long a2 = algorithm2(n);
+        long long a3 = algorithm3(n);
+        long long a4 = algorithm4(n);
+        printf("%-6d %12lld %12lld %12lld %12lld\n",
+               n, a1, a2, a3, a4);
+    }
     return 0;
 }
-
