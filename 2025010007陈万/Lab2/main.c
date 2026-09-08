@@ -53,13 +53,26 @@ long long algorithm4(int n)
 
 int main(void)
 {
-    //测试，n取8（2^3，k=3），方便看对数
-    int n=2048;
-    printf("n = %d\n", n);
-    printf("algorithm1 count = %lld\n", algorithm1(n));
-    printf("algorithm2 count = %lld\n", algorithm2(n));
-    printf("algorithm3 count = %lld\n", algorithm3(n));
-    printf("algorithm4 count = %lld\n", algorithm4(n));
+    // 4组测试规模
+    int size_arr[] = {2048, 4096, 8192, 16384};
+    int len = sizeof(size_arr) / sizeof(size_arr[0]);
+
+    //打印表头
+    printf("%-8s %-15s %-15s %-15s %-15s\n",
+           "n", "algorithm1", "algorithm2", "algorithm3", "algorithm4");
+
+    //循环遍历，不复制重复代码
+    for(int i = 0; i < len; i++)
+    {
+        int n = size_arr[i];
+        long long a1 = algorithm1(n);
+        long long a2 = algorithm2(n);
+        long long a3 = algorithm3(n);
+        long long a4 = algorithm4(n);
+
+        printf("%-8d %-15lld %-15lld %-15lld %-15lld\n",
+               n, a1, a2, a3, a4);
+    }
 
     return 0;
 }
