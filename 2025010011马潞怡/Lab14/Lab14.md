@@ -201,7 +201,7 @@ III. u 的父结点与 v 的父结点是兄弟关系
 - [ ] A. 只有 II
 - [ ] B. I 和 II
 - [ ] C. I 和 III
-- [x9] D. I、II 和 III
+- [x] D. I、II 和 III
 
 ### 题 17（2010 年）
 
